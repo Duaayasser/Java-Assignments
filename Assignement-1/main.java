@@ -9,7 +9,8 @@ public class main {
         numOfStudents = scanner.nextInt();
         scanner.nextLine(); 
 
-        do{ 
+        
+        
             Student[] students = new Student[numOfStudents];
 
         for (int i = 0; i < numOfStudents; i++) {
@@ -39,5 +40,6 @@ public class main {
             s.calculateAVG();
             s.studentInfo();
         }
-    } while(numOfStudents > 1);
+        
+    
 }}
