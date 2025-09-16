@@ -120,7 +120,7 @@ public class BusinessSystem {
         return scanner.next().charAt(0);
     }
 /*
- * [21] function used to clear the terminal each time its called
+ * [22] function used to clear the terminal each time its called
  */
     static void clearScreen() {
         try {
@@ -135,7 +135,7 @@ public class BusinessSystem {
         }
     }
 /* 
- * [22] function to handle errors caused by menu choices
+ * [23] function to handle errors caused by menu choices
  */
     static int getValidChoice(Scanner scanner, int min, int max) {
         int choice = -1;
